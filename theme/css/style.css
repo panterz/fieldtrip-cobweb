@@ -1,0 +1,11 @@
+.non-map-body{
+    position: relative;
+    background-image: linear-gradient(top, #304820, #699f41);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+}
+
+.ui-header h1{
+    background-image: url("../css/images/icon.png");
+}
