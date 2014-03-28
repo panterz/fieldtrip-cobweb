@@ -10,18 +10,28 @@
                 }
             }
         },
+        "section2": {
+            "items":{
+                "item4": {
+                    "div": {"class": "ui-block-d"},
+                    "a": {"class": "gps-track-start", "href": "annotate-gps.html"},
+                    "img": {"src": "plugins/gps-tracking/css/images/gps.png", "alt": "Capture GPS Track"},
+                    "title": "GPS Track"
+                }
+            }
+        },
         "section3": {
             "items": {
                 "item2": {
                     "div": {"class": "ui-block-b", "id": "home-content-login"},
                     "a": {"href": "#"},
-                    "img": {"src": "theme/css/images/login-large.png", "alt": "Login"},
+                    "img": {"src": "plugins/sync/css/images/login-large.png", "alt": "Login"},
                     "title": "Login"
                 },
                 "item3": {
                     "div": {"class": "ui-block-c", "style": "display:none;"},
                     "a": {"href": "#"},
-                    "img": {"src": "theme/css/images/uploadrecords-main.png", "alt": "Upload Records"},
+                    "img": {"src": "plugins/sync/css/images/uploadrecords-main.png", "alt": "Upload Records"},
                     "title": "Upload Records"
                 },
                 "item4": {
