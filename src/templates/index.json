@@ -18,27 +18,86 @@
                     "img": {"src": "plugins/gps-tracking/css/images/gps.png", "alt": "Capture GPS Track"},
                     "title": "GPS Track"
                 }
+            },
+            "item3": {
+                "div": {"class": "ui-block-c help-block"},
+                "a": {"href": "theme/help/contents.html"},
+                "img": {
+                    "src": "css/images/help.png",
+                    "alt": "Help Section"
+                },
+                "title": "Help"
             }
         },
         "section3": {
+            "title": "Download and Sync",
             "items": {
+                "item1": {
+                    "div": {"class": "ui-block-a"},
+                    "a": {"href": "save-map.html"},
+                    "img": {
+                        "src": "theme/css/images/downloadmaps.png",
+                        "alt": "Save Maps"
+                    },
+                    "title": "Maps"
+                },
                 "item2": {
-                    "div": {"class": "ui-block-b", "id": "home-content-login"},
-                    "a": {"href": "#"},
-                    "img": {"src": "plugins/sync/css/images/login-large.png", "alt": "Login"},
-                    "title": "Login"
+                    "div": {"class": "ui-block-a"},
+                    "a": {"href": "saved-records.html"},
+                    "img": {
+                        "src": "css/images/documents.png",
+                        "alt": "Saved Records"
+                    },
+                    "title": "Records"
                 },
                 "item3": {
-                    "div": {"class": "ui-block-c", "style": "display:none;"},
+                    "div": {
+                        "class": "ui-block-b sync-login",
+                        "id": "home-content-login"
+                    },
                     "a": {"href": "#"},
-                    "img": {"src": "plugins/sync/css/images/uploadrecords-main.png", "alt": "Upload Records"},
-                    "title": "Upload Records"
+                    "img": {
+                        "src": "plugins/sync/css/images/login-large.png",
+                        "alt": "Login"
+                    },
+                    "title": "Login"
                 },
                 "item4": {
-                    "div": {"class": "ui-block-d", "style": "display:none;"},
+                    "div": {
+                        "id": "home-content-upload",
+                        "class": "ui-block-c sync-upload-button",
+                        "style": "display:none;"
+                    },
                     "a": {"href": "#"},
-                    "img": {"src": "theme/css/images/sync-large.png", "alt": "Sync Records and Editors"},
+                    "img": {
+                        "src": "plugins/sync/css/images/uploadrecords-main.png",
+                        "alt": "Upload Records"
+                    },
+                    "title": "Upload Records"
+                },
+                "item5": {
+                    "div": {
+                        "id": "home-content-sync",
+                        "class": "ui-block-d sync-button",
+                        "style": "display:none;"
+                    },
+                    "a": {"href": "#"},
+                    "img": {
+                        "src": "plugins/sync/css/images/sync-large.png",
+                        "alt": "Sync Records and Editors"
+                    },
                     "title": "Sync"
+                }
+            }
+        },
+        "section4": {
+            "title": "Settings",
+            "items":{
+                "item1": {
+                    "div": {"class": "ui-block-a"},
+                    "a": {"class": "gps-track-start", "href": "settings.html"},
+                    "img": {"src": "css/images/settings.png", "alt": "Settings"},
+                    "title": "Settings"
                 }
             }
         }
