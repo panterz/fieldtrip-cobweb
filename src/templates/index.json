@@ -7,26 +7,29 @@
                     "a": {"href": "saved-maps.html"},
                     "img": {"src": "css/images/saved.png", "alt": "Save Map"},
                     "title": "Saved"
+                },
+                "item3": {
+                    "div": {"class": "ui-block-c help-block"},
+                    "a": {"href": "theme/help/contents.html"},
+                    "img": {
+                        "src": "css/images/help.png",
+                        "alt": "Help Section"
+                    },
+                    "title": "Help"
                 }
             }
         },
         "section2": {
-            "items":{
+            "items": {
                 "item4": {
                     "div": {"class": "ui-block-d"},
                     "a": {"class": "gps-track-start", "href": "annotate-gps.html"},
-                    "img": {"src": "plugins/gps-tracking/css/images/gps.png", "alt": "Capture GPS Track"},
+                    "img": {
+                        "src": "plugins/gps-tracking/css/images/gps.png",
+                        "alt": "Capture GPS Track"
+                    },
                     "title": "GPS Track"
                 }
-            },
-            "item3": {
-                "div": {"class": "ui-block-c help-block"},
-                "a": {"href": "theme/help/contents.html"},
-                "img": {
-                    "src": "css/images/help.png",
-                    "alt": "Help Section"
-                },
-                "title": "Help"
             }
         },
         "section3": {
@@ -42,7 +45,7 @@
                     "title": "Maps"
                 },
                 "item2": {
-                    "div": {"class": "ui-block-a"},
+                    "div": {"class": "ui-block-b"},
                     "a": {"href": "saved-records.html"},
                     "img": {
                         "src": "css/images/documents.png",
@@ -52,7 +55,7 @@
                 },
                 "item3": {
                     "div": {
-                        "class": "ui-block-b sync-login",
+                        "class": "ui-block-c sync-login",
                         "id": "home-content-login"
                     },
                     "a": {"href": "#"},
@@ -65,7 +68,7 @@
                 "item4": {
                     "div": {
                         "id": "home-content-upload",
-                        "class": "ui-block-c sync-upload-button",
+                        "class": "ui-block-d sync-upload-button",
                         "style": "display:none;"
                     },
                     "a": {"href": "#"},
@@ -78,7 +81,7 @@
                 "item5": {
                     "div": {
                         "id": "home-content-sync",
-                        "class": "ui-block-d sync-button",
+                        "class": "ui-block-e sync-button",
                         "style": "display:none;"
                     },
                     "a": {"href": "#"},
@@ -87,17 +90,6 @@
                         "alt": "Sync Records and Editors"
                     },
                     "title": "Sync"
-                }
-            }
-        },
-        "section4": {
-            "title": "Settings",
-            "items":{
-                "item1": {
-                    "div": {"class": "ui-block-a"},
-                    "a": {"class": "gps-track-start", "href": "settings.html"},
-                    "img": {"src": "css/images/settings.png", "alt": "Settings"},
-                    "title": "Settings"
                 }
             }
         }
