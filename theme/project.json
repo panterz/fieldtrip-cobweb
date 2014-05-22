@@ -17,10 +17,10 @@
             "org.apache.cordova.plugin.softkeyboard@1.0.3"
         ],
         "fieldtrip": {
-            "gps-tracking": "git@github.com:edina/fieldtrip-gps-tracking.git",
-            "map-search": "https://github.com/edina/fieldtrip-map-search",
-            "offline-maps": "https://github.com/edina/fieldtrip-offline-maps",
-            "sync": "git@github.com:edina/fieldtrip-sync.git"
+            "gps-tracking": "0.0.2",
+            "map-search": "0.0.2",
+            "offline-maps": "0.0.3",
+            "sync": "0.0.3"
         }
     }
 }
