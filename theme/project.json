@@ -19,8 +19,8 @@
         "fieldtrip": {
             "gps-tracking": "0.0.2",
             "map-search": "0.0.2",
-            "offline-maps": "0.0.3",
-            "sync": "0.0.3"
+            "offline-maps": "0.0.2",
+            "sync": "0.0.2"
         }
     }
 }
